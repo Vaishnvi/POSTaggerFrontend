@@ -1,0 +1,183 @@
+:root {
+  --vw_var: 0.052084;
+}
+
+.selectLanguageandModel{
+    color: #6A6A6A;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.93vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.03vw;
+    position: absolute;
+    top: 12.03vw;
+    left: 9.21vw;
+    width: 7.39vw;
+    height: 1.14vw;
+}
+
+.backArrow {
+    width: 1.25vw;
+    height: 1.25vw;
+    flex-shrink: 0;
+    position: absolute;
+    top: 14.63vw;
+    left: 6.97vw;
+  }
+  
+  .lang {
+    width: 10.67vw;
+    height: 2.91vw;
+    flex-shrink: 0;
+    border-radius: 0.41vw;
+    background: #2B71D5;
+    position: absolute;
+    top: 13.8vw;
+    left: 9.06vw;
+  }
+  
+  .langTxt {
+    width: 3.75vw;
+    height: 1.4vw;
+    color: #FCFCFC;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.14vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.04vw;
+    position: absolute;
+    top: 0.72vw;
+    bottom: 0.78vw;
+    left: 1.51vw;
+    right: 5.41vw;
+  }
+  
+  .dropDown {
+    width: 2.6vw;
+    height: 2.6vw;
+    flex-shrink: 0;
+    position: absolute;
+    top: 0.15vw;
+    left: 7.29vw;
+  }
+  
+  .modelContainer {
+    display: flex;
+    gap: 0.41vw;
+    width: 72.86vw;
+    height: 3.95vw;
+    flex-shrink: 0;
+    border-radius: 0.41vw;
+    background: #DEEAFC;
+    position: absolute;
+    top: 13.33vw;
+    left: 20.31vw;
+  }
+  
+  .sampleModel {
+    width: 15.62vw;
+    height: 2.91vw;
+    flex-shrink: 0;
+    border-radius: 0.41vw;
+    background: #2B71D5;
+    position: relative;
+    top: 0.52vw;
+  }
+  
+  .smTxt {
+    width: 9.32vw;
+    height: 1.4vw;
+    color: #FCFCFC;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.14vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.04vw;
+    position: absolute;
+    top: 0.78vw;
+    bottom: 0.72vw;
+    left: 2.5vw;
+  }
+  
+  .unSelect {
+    width: 1.04vw;
+    height: 1.04vw;
+    flex-shrink: 0;
+    position: absolute;
+    top: 0.93vw;
+    left: 13.64vw;
+  }
+
+.dropDownLanguages{
+  display: inline-flex;
+  padding: 0.79vw 0vw 0.014vw 0vw;
+  flex-direction: column;
+  border-radius: 0vw 0vw 0.79vw 0.79vw;
+  border: 1px solid #CAD8EC;
+  background: #fff;
+  height: 21.71vw;
+  width: 10.56vw;
+  left: 9.06vw;
+  top: 16.03vw;
+  position: absolute;
+  overflow-y: scroll;
+}
+
+.dropDownItems{
+  color: var(--Black, #313144);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.14vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 0.93vw; /* 150% */
+  letter-spacing: 0.01vw;
+  padding-left: 2.38vw;
+  padding-bottom: 2.6vw;
+  padding-top: 1.6vw;
+  padding-right: 100%;
+  width: 3.28vw;
+  height: 1.82vw;
+  box-sizing: border-box;
+}
+
+.dropDownItems:hover {
+  background-color: #ECF2FA;
+}
+
+.dropDownModels{
+  display: flex;
+  width: 72.65vw;
+  padding: 0.78vw 0vw 0.50vw 0vw;
+  flex-direction: column;
+  border-radius: 0vw 0vw 0.79vw 0.79vw;
+  border: 0.05vw solid #CAD8EC;
+  background: #fff;
+  position: absolute;
+  margin-top: 3.95vw;
+  overflow-y: scroll;
+}
+
+.dropDownModelItems{
+  color: var(--Black, #313144);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.14vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 0.93vw; /* 150% */
+  letter-spacing: 0.01vw;
+  padding-left: 1.97vw;
+  padding-bottom: 2.7vw;
+  padding-top: 1.7vw;
+  padding-right: 100%;
+  box-sizing: border-box;
+  width: 10.67vw;
+  height: 1.82vw;
+  white-space: nowrap;
+}
+
+.dropDownModelItems:hover {
+  background-color: #ECF2FA;
+}

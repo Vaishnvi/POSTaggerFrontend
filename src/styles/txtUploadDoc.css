@@ -1,0 +1,140 @@
+.enterTxt{
+    color: #6A6A6A;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.14vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.04vw;
+    position: absolute;
+    width: 11.97vw;
+    height: 1.4vw;
+    top: 20.10vw;
+    left: 6.97vw;
+}
+
+.orTxt{
+    color: #6A6A6A;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.14vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.04vw;   
+    position: absolute;
+    width: 1.4vw;
+    height: 1.4vw;
+    top: 20.10vw;
+    left: 19.84vw;
+}
+
+.uploadDoc{
+    width: 10.15vw;
+    height: 2.08vw;
+    flex-shrink: 0;
+    border-radius: 0.31vw;
+    border: 0.05vw solid #0B5E97;
+    background: #FDFDFD;
+    position: absolute;
+    top: 19.42vw;
+    left: 22.29vw;
+}
+
+.uploadDoc:hover {
+    background-color: #0F2749;
+}
+
+.uploadDocPic{
+    width: 0.75vw;
+    height: 0.93vw;
+    flex-shrink: 0;
+    position: absolute;
+    fill: #0B5E97;
+    top: 0.46vw;
+    left: 0.83vw;
+    bottom: 0.67vw;
+}
+
+.uploadDoc:hover .uploadDocPic {
+    fill: #FFF;
+}
+
+.uploadTxt{
+    color: #0B5E97;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.88vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    top: 0.41vw;
+}
+
+.uploadDoc:hover .uploadTxt {
+    color: #FFF;
+}
+
+.textToAnnotateBox{
+    width: 86.19vw;
+    height: 11.25vw;
+    flex-shrink: 0;
+    border-radius: 0.41vw;
+    background: #EFF6FF;
+    position: absolute;
+    top: 21.82vw;
+    left: 6.97vw;
+    box-sizing: border-box;
+    padding: 1.3vw;
+}
+
+.textToAnnotateBox:empty:before {
+    content: 'Type here...';
+    color: #888;
+}
+
+.textToAnnotateBox:focus {
+    outline: none;
+}
+
+.typeHereBox{
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.0vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.03vw;
+    position: relative;
+    top: 1.3vw;
+    left: 1.3vw;
+    width: 4.27vw;
+    height: 1.04vw;    
+}
+
+.submitButton{
+    width: 9.27vw;
+    height: 2.91vw;
+    flex-shrink: 0;
+    border-radius: 2.08vw;
+    background: #0F2749; 
+    position: absolute;   
+    top: 34.06vw;
+    left: 45.41vw;
+}
+
+.submitText{
+    color: #FCFCFC;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.14vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.04vw;   
+    position: absolute;
+    top: 0.78vw;
+    bottom: 0.72vw;
+    left: 2.92vw;
+    width: 4.06vw;
+    height: 1.4vw; 
+}

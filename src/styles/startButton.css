@@ -1,0 +1,35 @@
+.startButton {
+  width: 15vw;
+  height: 2.91vw;
+  flex-shrink: 0;
+  border-radius: 2.08vw;
+  background: #0F2749;
+  position: absolute;
+  margin-top: 4.32vw;
+  left: 42.5vw;
+  bottom: 4.84vw;
+}
+
+.startButton:disabled{
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.startButton:hover:disabled {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+/*
+.startButton {
+    width: 288px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    background: #0F2749;
+    position: absolute;
+    margin-top: 83px;
+    left: 816px;
+    bottom: 93px;
+  }
+  */

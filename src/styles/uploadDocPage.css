@@ -1,0 +1,455 @@
+.profilePic{
+    width: 2.17vw;
+    height: 2.17vw;
+    flex-shrink: 0;
+    fill: #000;
+    top: 2.60vw;
+    left: 94.37vw;
+    position: absolute;
+}
+
+.userId{
+    color: #6A6A6A;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.14vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.04vw;
+    top: 5.41vw;
+    right: 5.1vw;
+    position: absolute;
+    width: 8.85vw;
+    height: 1.4vw;
+}
+
+.selectLanguageandModelUploadDocPage{
+    color: #6A6A6A;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.93vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.03vw;
+    position: absolute;
+    top: 12.03vw;
+    left: 9.21vw;
+    width: 7.39vw;
+    height: 1.14vw;
+}
+.backArrowUDP {
+    width: 1.25vw;
+    height: 1.25vw;
+    flex-shrink: 0;
+  }
+  
+  .langUDP {
+    width: 10.67vw;
+    height: 2.91vw;
+    flex-shrink: 0;
+    border-radius: 0.41vw;
+    background: #2B71D5;
+    position: absolute;
+    top: 13.8vw;
+    left: 9.06vw;
+  }
+  
+  .langTxtUDP {
+    width: 3.75vw;
+    height: 1.4vw;
+    color: #FCFCFC;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.14vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.04vw;
+    position: absolute;
+    top: 0.72vw;
+    bottom: 0.78vw;
+    left: 1.51vw;
+    right: 5.41vw;
+  }
+  
+  .dropDownUDP {
+    width: 2.6vw;
+    height: 2.6vw;
+    flex-shrink: 0;
+    position: absolute;
+    top: 0.15vw;
+    left: 7.29vw;
+  }
+  
+  .modelContainerUDP {
+    display: flex;
+    gap: 0.41vw;
+    width: 72.86vw;
+    height: 3.95vw;
+    flex-shrink: 0;
+    border-radius: 0.41vw;
+    background: #DEEAFC;
+    position: absolute;
+    top: 13.33vw;
+    left: 20.31vw;
+  }
+  
+  .sampleModelUDP {
+    width: 15.62vw;
+    height: 2.91vw;
+    flex-shrink: 0;
+    border-radius: 0.41vw;
+    background: #2B71D5;
+    position: relative;
+    top: 0.52vw;
+  }
+  
+  .smTxtUDP {
+    width: 9.32vw;
+    height: 1.4vw;
+    color: #FCFCFC;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.14vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.04vw;
+    position: absolute;
+    top: 0.78vw;
+    bottom: 0.72vw;
+    left: 2.5vw;
+  }
+  
+  .unSelectUDP {
+    width: 1.04vw;
+    height: 1.04vw;
+    flex-shrink: 0;
+    position: absolute;
+    top: 0.93vw;
+    left: 13.64vw;
+  }
+
+  .enterTxtUDP{
+    color: #6A6A6A;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.14vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.04vw;
+    position: absolute;
+    width: 11.97vw;
+    height: 1.4vw;
+    top: 20.10vw;
+    left: 6.97vw;
+}
+
+.enterTxtUDP:hover {
+    color: #2B71D5;
+  }
+
+.orTxtUDP{
+    color: #6A6A6A;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.14vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.04vw;   
+    position: absolute;
+    width: 1.4vw;
+    height: 1.4vw;
+    top: 20.10vw;
+    left: 19.84vw;
+}
+
+.uploadDocUDP{
+    width: 10.15vw;
+    height: 2.08vw;
+    flex-shrink: 0;
+    border-radius: 0.31vw;
+    border: 0.05vw solid #0B5E97;
+    background: #FDFDFD;
+    position: absolute;
+    top: 19.42vw;
+}
+
+.uploadDocUDP:hover {
+    background-color: #0F2749;
+  }
+
+.uploadDocPicUDP{
+    width: 0.75vw;
+    height: 0.93vw;
+    flex-shrink: 0;
+    position: absolute;
+    fill: #0B5E97;
+    top: 0.46vw;
+    left: 0.83vw;
+    bottom: 0.67vw;
+}
+
+.uploadTxtUDP{
+    color: #0B5E97;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.88vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    top: 0.41vw;
+}
+
+.uploadDocUDP:hover .uploadTxtUDP {
+    color: #FFF;
+  }
+
+.textToAnnotateBoxUDP{
+    width: 86.19vw;
+    height: 11.25vw;
+    flex-shrink: 0;
+    border-radius: 0.41vw;
+    background: #EFF6FF;
+    position: absolute;
+    top: 21.82vw;
+    left: 6.97vw;
+    padding:1.3vw;
+    box-sizing: border-box;
+}
+
+.textToAnnotateBoxUDP:empty:before {
+  content: 'Type here...';
+  color: #888;
+}
+
+.textToAnnotateBoxUDP:focus {
+  outline: none;
+}
+
+.typeHereBoxUDP{
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.0vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.03vw;
+    position: absolute;
+    top: 1.3vw;
+    left: 1.3vw;
+    width: 4.27vw;
+    height: 1.04vw;   
+  }
+
+
+.submitButtonUDP{
+    width: 9.27vw;
+    height: 2.91vw;
+    flex-shrink: 0;
+    border-radius: 2.08vw;
+    background: #0F2749; 
+    position: absolute;   
+    top: 34.06vw;
+    left: 45.41vw;
+}
+
+.submitTextUDP{
+    color: #FCFCFC;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.14vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.04vw;   
+    position: absolute;
+    top: 0.78vw;
+    bottom: 0.72vw;
+    left: 2.92vw;
+    width: 4.06vw;
+    height: 1.4vw; 
+}
+
+.dragIconUDP{
+  width: 3.58vw;
+  height: 3.10vw;
+  flex-shrink: 0;
+  top: 1.92vw;
+  left: 41.25vw;
+  position: absolute;
+}
+
+.dragTextUDP{
+  color: #483EA8;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.83vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.25vw; /* 150% */
+  position: absolute;
+  top: 6.35vw;
+  left: 37.18vw;
+}
+
+
+.before-text{
+  color: #0F0F0F;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.83vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.25vw; /* 150% */
+}
+
+.browse-text {
+  color: #483EA8;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.83vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.25vw; /* 150% */
+  text-decoration: underline;
+}
+
+
+.supportedFormatUDP{
+  color: #676767;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.04vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 0.93vw; /* 90% */
+  position: absolute;
+  top: 8.12vw;
+  left: 25.67vw;
+}
+
+.profileDetailsMenuItem{
+  width: 20.15vw;
+  height: 2.7vw;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 0vw 0.52vw 0vw 0vw;
+  border-bottom: 0.01vw solid rgba(13, 13, 13, 0.34);
+  background: #222683;
+  position: absolute;
+  top: 5.2vw;
+  left: 79.84vw;
+}
+
+.profileDetailsMenuItemSmallIcon{
+  width: 0.72vw;
+  height: 0.72vw;
+  flex-shrink: 0;
+  top: 0.83vw;
+  left: 0.93vw;
+  position: absolute;
+}
+
+.profileClose{
+  width: 1.25vw;
+  height: 1.25vw;
+  flex-shrink: 0;
+  fill: #222683;
+  position: absolute;
+  top: 4.01vw;
+  left: 78.54vw;
+}
+
+.profileBox{
+  width: 20.15vw;
+  height: 33.38vw;
+  flex-shrink: 0;
+  border-radius: 0vw 1.04vw 1.04vw 0vw;
+  background: #F3F7FC;
+  box-shadow: 0px 0.2vw 0.41vw 0px rgba(122, 122, 122, 0.25);
+  position: absolute;
+  top: 5.2vw;
+  left: 79.84vw;
+}
+
+.profilePicInMenu{
+  width: 6.19vw;
+  height: 6.19vw;
+  flex-shrink: 0;
+  position: absolute;
+  top: 3.38vw;
+  left: 6.97vw;
+}
+
+.profileName{
+  color: #2C2C2C;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.04vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 0.93vw; /* 90% */
+  position: absolute;
+  height: 0.93vw;
+  top: 10.10vw;
+  left: 5.78vw;
+}
+
+.profileEmail{
+  color: #676767;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.83vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 0.93vw; /* 112.5% */
+  position: absolute;
+  width: 9.27vw;
+  height: 0.93vw;
+  top: 11.61vw;
+  left: 5.41vw;
+}
+
+.profileDivider{
+  display: flex;
+  width: 19.21vw;
+  height: 0.05vw;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 13.95vw;
+  left: 0.46vw;
+  background: rgba(36, 36, 36, 0.33);
+}
+
+.itemsMenu{
+  color: #2C2C2C;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.83vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.01vw;
+  position: absolute;
+  left: 1.3vw;
+}
+
+.divider2{
+  display: flex;
+  width: 19.21vw;
+  height: 0.05vw;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 0.46vw;
+  background: rgba(36, 36, 36, 0.12);
+}
+
+.logoutPic{
+  width: 1.25vw;
+  height: 24px;
+  flex-shrink: 0;
+  position: absolute;
+  top: 23.59vw;
+  left: 17.96vw;
+}

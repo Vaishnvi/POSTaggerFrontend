@@ -1,0 +1,30 @@
+.signinbox {
+    width: 5.78vw;
+    height: 1.66vw;
+    flex-shrink: 0;
+    border-radius: 0.41vw;
+    background: #2B71D5;
+    position: absolute;
+    left: 91.56vw;
+    top: 3.22vw;
+    right: 2.65vw;
+  }
+  
+  .si {
+    width: 2.96vw;
+    height: 0.57vw;
+    flex-shrink: 0;
+    color: #FCFCFC;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.83vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.03vw;
+    position: absolute;
+    left: 1.51vw;
+    right: 1.51vw;
+    top: 0.26vw;
+    bottom: 0.36vw;
+  }
+  
