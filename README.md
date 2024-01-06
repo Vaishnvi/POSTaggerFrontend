@@ -5,6 +5,7 @@
 When you the application use the following credentials to sign in using DB entry, since sign up is yet to be modified:
 
 Email address: vkhindkar@gmail.com
+
 Password: 123
 
 
